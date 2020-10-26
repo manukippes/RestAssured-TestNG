@@ -1,6 +1,6 @@
 # RestAssured-TestNG
 
-Framework de pruebas sobre API REST
+Framework de pruebas sobre API Openbrewerydb
 
 Tecnologias utilizadas:
 - Lenguaje: Java
