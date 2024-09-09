@@ -1,4 +1,4 @@
-package ar.com.manutesting.utiles.datosExcel;
+package com.kimatesting.qa.utiles.datosExcel;
 
 import java.io.IOException;
 
