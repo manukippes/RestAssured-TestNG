@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssured-TestNG">
+	<listeners>
+		<listener class-name="com.kimatesting.qa.tests.Listener" />
+	</listeners>
+	<test thread-count="5" name="RegressionTests">
+<!--		<classes>-->
+<!--			<class name="com.kimatesting.qa.SwaggerTesRunner"/>-->
+<!--		</classes>-->
+<!--				<classes>-->
+<!--					<class name="com.kimatesting.qa.tests.petshop.PetTest"/>-->
+<!--				</classes>-->
+		<packages>
+			<package name="com.kimatesting.qa.tests.petshop"/>
+		</packages>
+	</test> <!-- Test-Challenge -->
+</suite> <!-- RestAssured-TestNG-Challenge -->

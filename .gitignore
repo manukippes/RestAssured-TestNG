@@ -18,3 +18,5 @@ local.properties
 .externalToolBuilders/
 *.launch
 .buildpath
+.DS_Store
+.idea/
